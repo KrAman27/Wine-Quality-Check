@@ -71,21 +71,3 @@ y_pred_goodquality= [1 if p >= 7 else 0 for p in y_pred ]
 #creating the confusion matrix
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test_goodquality, y_pred_goodquality)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
